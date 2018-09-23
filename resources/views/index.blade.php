@@ -12,12 +12,12 @@
     <div class="top">
         <div class="logo"></div>
         <div class="nav">
-            <a href="index.html" class="nav_a">首页</a>
-            <a href="yxjs.html">游戏介绍</a>
+            <a href="/" class="nav_a">首页</a>
+            <a href="/game">游戏介绍</a>
             {{--<a href="czzx.html">充值中心</a>--}}
             {{--<a href="hyzx.html">会员中心</a>--}}
-            <a href="jzjh.html">家长监护</a>
-            <a href="about.html">关于我们</a>
+            {{--<a href="jzjh.html">家长监护</a>--}}
+            <a href="/about">关于我们</a>
         </div>
 
     </div>
