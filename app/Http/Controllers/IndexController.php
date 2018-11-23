@@ -8,4 +8,14 @@ class IndexController extends Controller
     {
         return view('index');
     }
+
+    public function anyHome()
+    {
+        return view('home');
+    }
+
+    public function anyAbout()
+    {
+        return view('about');
+    }
 }

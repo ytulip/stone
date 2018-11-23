@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('home');
 });
 
 Route::get('/game', function () {
@@ -29,4 +29,29 @@ Route::get('/about', function () {
 
 Route::get('hello',function(){
 	return 'hello';
+});
+
+Route::get('product',function(){
+    return view('product');
+});
+
+Route::get('download',function(){
+    return view('download');
+});
+
+Route::get('jzjh',function(){
+   return view('jzjh');
+});
+
+Route::get('login',function(){
+    return view('login');
+});
+
+
+Route::get('register',function(){
+    return view('register');
+});
+
+Route::get('join',function(){
+    return view('join');
 });
