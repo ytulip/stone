@@ -55,3 +55,7 @@ Route::get('register',function(){
 Route::get('join',function(){
     return view('join');
 });
+
+Route::get('charge',function(){
+    return view('charge');
+});

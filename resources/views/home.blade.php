@@ -83,69 +83,7 @@
                     <div id="view_navigator_8_843" class="yibuSmartViewMargin absPos">
                         <div class='yibuFrameContent navigator_Style3_Item0 view_navigator_8_843_Style3_Item0'
                              style='border-style:none;'><!--nav-->
-                            <ul id=nav_view_navigator_8_843 styleItem=Style3>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/" target=_self>
-                                            首页
-                                        </a>
-                                    </h3>
-                                </li>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/asset/about/" target=_self>
-                                            关于我们
-                                        </a>
-                                    </h3>
-                                </li>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/asset/product/" target=_self>
-                                            游戏介绍
-                                        </a>
-                                    </h3>
-                                </li>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/asset/server/" target=_self>
-                                            游戏下载
-                                        </a>
-                                    </h3>
-                                </li>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/asset/chongzhi/" target=_self>
-                                            充值中心
-                                        </a>
-                                    </h3>
-                                </li>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/asset/jcjh/" target=_self>
-                                            家长监护
-                                        </a>
-                                    </h3>
-                                </li>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/asset/jrwm/" target=_self>
-                                            加入我们
-                                        </a>
-                                    </h3>
-                                </li>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/asset/register/" target=_self>
-                                            用户注册
-                                        </a>
-                                    </h3>
-                                </li>
-                                <li class=w_nav_item style=width:10%;*width:10%>
-                                    <h3>
-                                        <a href="/asset/login" target=_self>用户登录</a>
-                                    </h3>
-                                </li>
-                            </ul>
+                            @include('segment.banner')
                             <script>
                                 $(function () {
                                     slideMenu("nav_" + 'view_navigator_8_843');

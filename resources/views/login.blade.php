@@ -14,14 +14,14 @@
     <div class="head"><a href="" class="logo" style="padding:0;"><img src="/asset/images/9527073_logo_31cd9cdc-5cac-44ca-be2f-d0b903352c11_resize_pic.png" width="250" height="80" alt="重庆乐中乐游戏" /></a>
         <ul class="nav">
             <a href="/">首&nbsp;页</a>
-            <a href="/qlygw/about/">关于我们</a>
-            <a href="/qlygw/product/">游戏介绍</a>
-            <a href="/qlygw/server/">游戏下载</a>
-            <a href="/qlygw/chongzhi/">充值中心</a>
-            <a href="/qlygw/jcjh/">家长监护</a>
-            <a href="/qlygw/jrwm/">加入我们</a>
-            <a href="/qlygw/register/">用户注册</a>
-            <a href="/qlygw/login">用户登录</a>
+            <a href="/about">关于我们</a>
+            <a href="/product">游戏介绍</a>
+            <a href="/download">游戏下载</a>
+            <a href="/charge">充值中心</a>
+            <a href="/jzjh">家长监护</a>
+            <a href="/join">加入我们</a>
+            <a href="/register">用户注册</a>
+            <a href="/login">用户登录</a>
         </ul>
     </div>
 </div>
