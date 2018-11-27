@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.p-guide .warp { width: 800px; position: relative; }
+.p-guide-1 { height: 250px;  }
+.p-guide-2 { height: 300px;  }
+.p-guide-3 { height:167px;}
+.p-guide-1 .logo { left: 0; margin: 0 0 0 50px }
+
+/*二维码*/
+.panel-QR { width: 456px; }
+.panel-QR dt { position: relative; width: 172px; height: 167px; float: left; }
+.panel-QR dt img { width: 152px; height: 152px; position: absolute; left: 10px; top: 9px; z-index: 1 }
+.panel-QR dt em { position: absolute; width: 172px; height: 167px; left: 0; top: 0; z-index: 5; background: url(../images/bg-eqcode.png) no-repeat 0 0 }
+.panel-QR dd, .panel-QR dd a { display: block; width: 271px; height: 77px; }
+.panel-QR dd a { background-image: url(../images/bg-eqcode.jpg); }
+.panel-QR dd { float: right; }
+.panel-QR .item-2{margin-bottom: 8px}
+.panel-QR .item-1 { background-position: 0 -164px;  }
+.panel-QR .item-1 a:hover { background-position: 0 -246px }
+.panel-QR .item-2 a:hover { background-position: 0 -82px }
+.panel-QR .item-disable { background-image: url(../images/bg-eqcode.jpg); cursor: default !important; background-position: 0 -328px !important }
+.body-idx .panel-QR { margin-bottom: 117px }
+
+.p-guide-2 .panel-QR dt{height: 22px;padding-top: 173px}
+
+
+/*焦点图*/
+.guide-panel-silder { width: 800px; height: 343px; margin-bottom: 80px; position: relative; z-index: 1 }
+.s-j-1, .s-j-2, .s-j-3, .s-j-4 { background-image: url(../images/bg-silder-png.png); display: block; position: absolute; z-index: 3 }
+.s-j-1, .s-j-2 { width: 92px; height: 80px; top: -43px }
+.s-j-3, .s-j-4 { width: 19px; height: 17px; bottom: 15px }
+.s-j-1 { background-position: -40px 0; left: -27px }
+.s-j-2 { background-position: -135px 0; right: -33px }
+.s-j-3 { background-position: 0 0; left: -1px }
+.s-j-4 { background-position: 0 -22px; right: 3px }
+.slidePic { width: 780px; height: 320px; margin-left: 10px; overflow: hidden; position: relative; z-index: 2 }
+.slidePic .silder-pagination { height: 18px; width: 500px; position: absolute; right: 10px; bottom: 10px; text-align: right; z-index: 3; }
+.slidePic .silder-pagination i { display: inline-block; width: 16px; height: 16px; background-image: url(../images/bg-silder-png.png); background-position: 0 -59px; cursor: pointer; margin: 0 3px; }
+.slidePic .silder-pagination i.on { background-position: 0 -43px; width: 16px; height: 16px }
+.silder-wrapper, .slidePic .silder-wrapper ul, .slidePic .silder-wrapper ul li { float: left; width: 100%; height: 100%; text-align: center; }
+.slidePic .silder-wrapper ul li img { display: block; }
+
+/*下载按钮*/
+
+.btn-guide-download, .btn-guide-download .smoke, .btn-guide-download em { width: 262px; height: 116px;  position: absolute; top: 0; left: 0; }
+.btn-guide-download { left: auto; top: 37px; right: 20px; background-image: url(../images/btn-guide-download.jpg); background-position: 0 0  }
+.btn-guide-download .smoke { background: url(../images/smoke.png); z-index: 1; animation: 40s linear 0s normal none infinite running smoke1; }
+.btn-guide-download em { background: url(../images/btn-guide-download-em.png) no-repeat; z-index: 2; }
+.btn-guide-download:hover { background-position: 0 -116px }
+@-moz-keyframes smoke1{0%{background-position:0 0;} 100%{background-position:0 -730px;}}
+@-webkit-keyframes smoke1{0%{background-position:0 0;} 100%{background-position:0 -730px;}}
+@keyframes smoke1{0%{background-position:0 0;} 100%{background-position:0 -730px;}}

@@ -20,14 +20,14 @@
             </a>
         </h3>
     </li>
-    <li class=w_nav_item style=width:10%;*width:10%>
+    <li class="w_nav_item  @if(isset($target) && $target=='download') w_nav_item_current @endif" style=width:10%;*width:10%>
         <h3>
             <a href="/download" target=_self>
                 游戏下载
             </a>
         </h3>
     </li>
-    <li class=w_nav_item style=width:10%;*width:10%>
+    <li class="w_nav_item @if(isset($target) && $target=='charge') w_nav_item_current @endif" style=width:10%;*width:10%>
         <h3>
             <a href="/charge" target=_self>
                 充值中心

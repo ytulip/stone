@@ -144,7 +144,7 @@
             <div id="view_navigator_8_843" class="yibuSmartViewMargin absPos" style="z-index: 999999;">
                 <div class="yibuFrameContent navigator_Style3_Item0 view_navigator_8_843_Style3_Item0"
                      style="border-style: none; overflow: visible;"><!--nav-->
-                    @include('segment.banner')
+                    @include('segment.banner',['target'=>'charge'])
 
                     <!--/nav-->
 
